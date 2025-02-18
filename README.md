@@ -78,7 +78,8 @@ ________________________________________
 ________________________________________
 5️⃣ Dashboard Analysis & Insights
 📷 Dashboard Preview🔹 Below is a sneak peek of the Tableau dashboard.
- 
+ ![image](https://github.com/user-attachments/assets/c88e0bba-8a62-416f-af0b-c8016c50b51b)
+
 
 📌 Car Theft Trends Over Time:
 •	The highest theft increase was seen between 2021 and 2022.
