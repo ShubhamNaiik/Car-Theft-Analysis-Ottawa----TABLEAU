@@ -1,6 +1,4 @@
 # Vehicle-Theft-Analysis-Ottawa
-Car Theft Analysis Dashboard 
-An interactive Tableau Dashboard analyzing car theft trends, recovery rates, and high-risk areas.
 ________________________________________
 📊 Overview
 Car theft is a significant challenge in urban areas. This Tableau dashboard provides a data-driven analysis of auto theft trends, helping identify:
@@ -41,13 +39,16 @@ The analysis focuses on the following KPIs (Key Performance Indicators):
 ✅ Peak Theft Times: The most common time and days for thefts.
 ________________________________________
 ⚡ Insights Derived
+
 📌 Car Theft Trends:
 •	4,106 thefts were recorded from 2019 to 2023.
 •	Theft rates peaked in 2021 and 2022 before slightly declining in 2023.
+
 📌 High-Risk Locations:
 •	New Barrhaven - New Development - Stonebridge reported the highest thefts (257 cases).
 •	Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South (238 cases) is the second most affected area.
 •	Centretown (138 cases) follows closely in third place.
+
 📌 Most Stolen Vehicles:
 •	Top 3 Car Brands Targeted:
 1.	Toyota (1,327 thefts)
@@ -57,11 +58,13 @@ ________________________________________
 1.	Toyota Highlander (665 thefts)
 2.	Toyota RAV4 (282 thefts)
 3.	Honda CR-V (217 thefts)
+
 📌 Peak Theft Periods:
 •	Most common days:
 1.	Wednesday (633 thefts)
 2.	Thursday (627 thefts)
 3.	Tuesday (598 thefts)
+
 •	Most common hours:
 1.	Evening (5 PM - 9 PM): 1,776 thefts – The highest theft activity occurs during the evening.
 2.	Night (9 PM - 5 AM): 811 thefts – A significant number of vehicles are stolen overnight.
