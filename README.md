@@ -61,7 +61,6 @@ This dashboard helps *law enforcement, policymakers, and car owners* make *infor
 ## ⚡ Key Insights
 ### 📌 **Car Theft Trends:**
 - Theft rates *peaked in 2021 and 2022* before a slight decline in 2023.
-- **Most common theft days:** *Wednesday, Thursday, Tuesday.*
 ![Theft Trend ](https://github.com/user-attachments/assets/7ded1eb2-3c63-44c4-bfa3-510994f24cbc)
 
 ### 📌 **High-Risk Locations:**
