@@ -1,119 +1,114 @@
-# Vehicle-Theft-Analysis-Ottawa
-________________________________________
-📊 Overview
-Car theft is a significant challenge in urban areas. This Tableau dashboard provides a data-driven analysis of auto theft trends, helping identify:
-•	Theft trends over time 📈
-•	High-risk neighborhoods 🏙️
-•	Most targeted car makes, models, and colors 🚘
-•	Recovery rates and patterns ✅
-•	Time-based analysis: weekdays and peak hours ⏳
-This dashboard enables law enforcement agencies, policymakers, and car owners to make data-backed decisions to mitigate vehicle theft.
-________________________________________
-Core Research Questions
-This analysis aims to answer the following key questions:
-1.	What are the trends in car theft over time?
-2.	Which neighborhoods are most affected by car theft?
-3.	Which car makes, models, and colors are most frequently stolen?
-4.	What is the recovery rate for stolen vehicles?
-5.	Are there specific times (days, hours) when thefts peak?
- 
-________________________________________
-📂 Dataset Details
-The dataset used for this analysis contains 4,106 reported thefts and includes the following attributes:
-•	Vehicle Details: Year, Make, Model, Style, Color.
-•	Theft Timing: Weekday, Time of Day, Hour.
-•	Location Data: Neighborhood where the theft occurred.
-•	Recovery Status: Whether the stolen vehicle was recovered.
-•	Date Information: Reported Date and Year of Occurrence.
-📌 Timeframe: 2019 - 2023
-📌 Data Source: (Government police records / Auto theft database)
+# 🚗 Car Theft Analysis Dashboard
 
-________________________________________
-3️⃣ Key Metrics Overview
-The analysis focuses on the following KPIs (Key Performance Indicators):
-✅ Total Thefts: 4,106 cases reported.
-✅ Recovery Rate: 61.91% of stolen vehicles were found.
-✅ Yearly Growth Trend: Theft incidents per year.
-✅ Most Stolen Car Makes & Models: Identifies the highest-risk vehicles.
-✅ High-Risk Neighborhoods: Areas with the most frequent thefts.
-✅ Peak Theft Times: The most common time and days for thefts.
-________________________________________
-⚡ Insights Derived
+### An interactive Tableau Dashboard analyzing car theft trends, recovery rates, and high-risk areas.
 
-📌 Car Theft Trends:
-•	4,106 thefts were recorded from 2019 to 2023.
-•	Theft rates peaked in 2021 and 2022 before slightly declining in 2023.
+## 📊 Overview
+Car theft is a growing concern in urban areas. This *Tableau dashboard* provides a *data-driven analysis* to identify:
+- *Theft trends over time* 📈
+- *High-risk neighborhoods* 🏙
+- *Most targeted car makes, models, and colors* 🚘
+- *Recovery rates and patterns* ✅
+- *Time-based analysis of theft occurrences* ⏳
+![Thefts Dashboard](https://github.com/user-attachments/assets/10f47952-aa07-4cd6-ab9c-b80a7103ab10)
 
-📌 High-Risk Locations:
-•	New Barrhaven - New Development - Stonebridge reported the highest thefts (257 cases).
-•	Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South (238 cases) is the second most affected area.
-•	Centretown (138 cases) follows closely in third place.
+This dashboard helps *law enforcement, policymakers, and car owners* make *informed decisions* to reduce vehicle theft.
 
-📌 Most Stolen Vehicles:
-•	Top 3 Car Brands Targeted:
-1.	Toyota (1,327 thefts)
-2.	Honda (474 thefts)
-3.	Ford (344 thefts)
-•	Top 3 Stolen Car Models:
-1.	Toyota Highlander (665 thefts)
-2.	Toyota RAV4 (282 thefts)
-3.	Honda CR-V (217 thefts)
+---
 
-📌 Peak Theft Periods:
-•	Most common days:
-1.	Wednesday (633 thefts)
-2.	Thursday (627 thefts)
-3.	Tuesday (598 thefts)
+## 🔎 Core Research Questions
+1. How have car theft trends evolved over time?
+2. Which neighborhoods experience the highest theft rates?
+3. Which car makes, models, and colors are most frequently stolen?
+4. What percentage of stolen vehicles are recovered?
+5. Are there specific times of the day and week when thefts peak?
 
-•	Most common hours:
-1.	Evening (5 PM - 9 PM): 1,776 thefts – The highest theft activity occurs during the evening.
-2.	Night (9 PM - 5 AM): 811 thefts – A significant number of vehicles are stolen overnight.
-3.	Afternoon (12 PM - 5 PM): 781 thefts – Mid-day thefts are also common.
-4.	Morning (5 AM - 12 PM): 738 thefts – Least number of thefts, but still a substantial count.
+---
 
+## 📂 Dataset Details
+**Total Reports:** *4,106 thefts*  
+**Timeframe:** *2019 - 2023*  
+**Data Source:** *Government police records / Auto theft database*
 
-📌 Recovery Insights:
-•	61.91% of stolen vehicles were recovered, meaning nearly 2,523 vehicles were returned.
-•	Newer vehicles (post-2020) had lower recovery rates, suggesting better anti-theft technology may be needed.
-________________________________________
-5️⃣ Dashboard Analysis & Insights
-📷 Dashboard Preview🔹 Below is a sneak peek of the Tableau dashboard.
- ![image](https://github.com/user-attachments/assets/c88e0bba-8a62-416f-af0b-c8016c50b51b)
+### **Dataset Attributes**
+| **Variable**        | **Data Type**  |
+|--------------------|---------------|
+| OBJECTID           | Integer       |
+| Vehicle Year       | Integer       |
+| Vehicle Make       | String        |
+| Vehicle Model      | String        |
+| Vehicle Type       | String        |
+| Vehicle Colour     | String        |
+| Weekday            | String        |
+| Recovered          | String        |
+| Neighbourhood      | String        |
+| Reported Date      | Date          |
+| Year               | Integer       |
+| Time of Day        | String        |
+| Longitude          | Float         |
+| Latitude           | Float         |
 
+---
 
-📌 Car Theft Trends Over Time:
-•	The highest theft increase was seen between 2021 and 2022.
-•	A slight decline in 2023, but numbers are still high compared to 2019-2020.
-📌 High-Risk Neighborhoods:
-•	Suburban neighborhoods (e.g., New Barrhaven) had higher theft rates than downtown areas.
-•	•  New Barrhaven & Orléans Avalon are suburban areas with large residential zones, making them hotspots for targeted theft.
-•	•  Centretown has a mix of commercial and residential areas, increasing theft exposure.
-•	•  Riverside South & Overbrook are emerging high-theft zones that need improved monitoring.
-•	Theft patterns suggest targeted vehicle theft rather than random crimes.
-📌 Most Stolen Vehicles & Colors:
-•	Toyota SUVs (Highlander, RAV4) are the most stolen models.
-•	Black, Gray, and White cars are stolen the most, possibly due to their commonality.
-📌 Timing of Thefts:
-•	Most thefts happen in the evening and night, indicating that vehicles left unattended overnight are at a higher risk.
-•	Morning thefts are the lowest, likely because of increased public activity and visibility.
-•	Afternoon thefts are still notable, emphasizing the need for caution in parking lots and workspaces..
-•	Mid-week (Tuesday-Thursday) has the highest theft activity.
-📌 Recovery Trends:
-•	Older vehicles have higher recovery rates compared to newer models.
-Vehicles stolen in high-patrol areas are recovered faster.
-________________________________________
-6️⃣ Recommendations
-🔹 For Law Enforcement:
-1.	Increase police patrols in New Barrhaven, Orléans Avalon, and Centretown.
-2.	Implement real-time surveillance in high-theft areas.
-3.	Implement CCTV monitoring in parking lots and streets in these zones
+## 📊 Key Metrics Overview
+✅ **Total Thefts:** *4,106 cases reported*  
+✅ **Recovery Rate:** *61.91%* recovered  
+✅ **Most Stolen Car Brands:** *Toyota, Honda, Ford*  
+✅ **High-Risk Neighborhoods:** *New Barrhaven, Orléans Avalon, Centretown*  
+✅ **Peak Theft Time:** *Evening (5 PM - 9 PM)*  
 
-🔹 For Car Owners:
-1.	Install GPS trackers & immobilizers on high-risk vehicles (Toyota SUVs).
-2.	Avoid parking outside at night, especially in high-risk neighborhoods.
-3.	Use steering wheel locks and smart alarms for added security.
-🔹 For Policymakers & Insurers:
-1.	Offer insurance discounts for vehicles with GPS tracking.
-2.	Enforce mandatory security measures for frequently stolen car models.
-3.	Partner with auto manufacturers to improve theft prevention technology.
-________________________________________
+---
+
+## ⚡ Key Insights
+### 📌 **Car Theft Trends:**
+- Theft rates *peaked in 2021 and 2022* before a slight decline in 2023.
+- **Most common theft days:** *Wednesday, Thursday, Tuesday.*
+![Theft Trend ](https://github.com/user-attachments/assets/7ded1eb2-3c63-44c4-bfa3-510994f24cbc)
+
+### 📌 **High-Risk Locations:**
+- **Top neighborhoods for theft:**
+  - *New Barrhaven - 257 cases*
+  - *Orléans Avalon - 238 cases*
+  - *Centretown - 138 cases*
+- *Emerging theft zones:* Riverside South, Overbrook.
+![Theft Map](https://github.com/user-attachments/assets/60b84e6b-559c-485b-94a3-8ebd3b1d6094)
+
+### 📌 **Most Stolen Vehicles:**
+- **Top 3 Car Brands:**  
+  1️⃣ *Toyota* – *1,327 thefts*  
+  2️⃣ *Honda* – *474 thefts*  
+  3️⃣ *Ford* – *344 thefts*  
+- **Top 3 Stolen Models:**
+  1️⃣ *Toyota Highlander* – *665 thefts*  
+  2️⃣ *Toyota RAV4* – *282 thefts*  
+  3️⃣ *Honda CR-V* – *217 thefts*  
+![Screenshot 2025-02-18 185227](https://github.com/user-attachments/assets/db76cac8-bac6-404f-bef4-8d70806a9675)
+
+### 📌 **Theft Timing & Recovery:**
+- **Peak Theft Hours:** *Evening (5 PM - 9 PM)* 🚨
+- **Recovery Rate:** *61.91% of stolen vehicles were recovered.*
+- *Newer vehicles (post-2020) have lower recovery rates.*
+![Theft Weekday Heatchart](https://github.com/user-attachments/assets/b66ec942-32bb-428c-800e-ffcd38199b78)
+![Theft Recovery Linechart](https://github.com/user-attachments/assets/80ac4c49-243a-4a4e-bb86-0dae4a54676c)
+
+---
+
+## 🛠 Recommendations
+### 🔹 **For Law Enforcement:**
+✔ Increase *patrols in high-risk areas* 🚓  
+✔ Improve *CCTV & surveillance in theft hotspots* 📹  
+✔ Focus *night patrols (5 PM - 9 PM)* for maximum impact 🌙  
+
+### 🔹 **For Car Owners:**
+✔ *Avoid parking in high-theft areas* 🚧  
+✔ *Install GPS trackers & smart alarms* 🔒  
+✔ *Use steering wheel locks & secure garages* 🏠  
+
+### 🔹 **For Policymakers & Insurers:**
+✔ Implement *public awareness programs* 📢  
+✔ Require *mandatory security features for high-risk vehicles* 🚘  
+✔ Offer *insurance discounts for anti-theft measures* 💰  
+
+---
+
+### 📌 **Explore the Dashboard & Stay Safe!** 🚀
+
