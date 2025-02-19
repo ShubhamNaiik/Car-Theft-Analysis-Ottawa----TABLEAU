@@ -110,5 +110,3 @@ This dashboard helps *law enforcement, policymakers, and car owners* make *infor
 
 ---
 
-### 📌 **Explore the Dashboard & Stay Safe!** 🚀
-
