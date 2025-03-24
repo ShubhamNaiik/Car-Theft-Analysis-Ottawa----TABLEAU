@@ -14,6 +14,9 @@ Car theft continues to be a growing concern in urban areas. This interactive **T
 
 ![Thefts Dashboard](https://github.com/user-attachments/assets/10f47952-aa07-4cd6-ab9c-b80a7103ab10)
 
+<p align="center"> Checkout the Dashboard  <a href="https://public.tableau.com/app/profile/shubham.naik5258/viz/CarTheftAnalysis/Dashboard ">HERE</a>
+</p>
+
 This dashboard helps *law enforcement, policymakers, and car owners* make *informed decisions* to reduce vehicle theft.
 
 ---
